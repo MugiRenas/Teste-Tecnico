@@ -1,0 +1,11 @@
+C:\Users\correiarext\source\repos\ProductsCategories\ClassLibrary2\obj\Debug\ProductsCategoriesDataAccess.csproj.CoreCompileInputs.cache
+C:\Users\correiarext\source\repos\ProductsCategories\ClassLibrary2\bin\Debug\ClassLibrary2.dll.config
+C:\Users\correiarext\source\repos\ProductsCategories\ClassLibrary2\bin\Debug\ClassLibrary2.dll
+C:\Users\correiarext\source\repos\ProductsCategories\ClassLibrary2\bin\Debug\ClassLibrary2.pdb
+C:\Users\correiarext\source\repos\ProductsCategories\ClassLibrary2\bin\Debug\EntityFramework.dll
+C:\Users\correiarext\source\repos\ProductsCategories\ClassLibrary2\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\correiarext\source\repos\ProductsCategories\ClassLibrary2\bin\Debug\EntityFramework.xml
+C:\Users\correiarext\source\repos\ProductsCategories\ClassLibrary2\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\correiarext\source\repos\ProductsCategories\ClassLibrary2\obj\Debug\ProductsCategoriesDataAccess.csproj.CopyComplete
+C:\Users\correiarext\source\repos\ProductsCategories\ClassLibrary2\obj\Debug\ClassLibrary2.dll
+C:\Users\correiarext\source\repos\ProductsCategories\ClassLibrary2\obj\Debug\ClassLibrary2.pdb
