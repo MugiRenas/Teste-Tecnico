@@ -1,0 +1,338 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>ClassLibrary2.Fakes</name>
+    </assembly>
+    <members>
+        <member name="T:ClassLibrary2.Fakes.ShimCategory1">
+            <summary>Shim type of ClassLibrary2.Category1</summary>
+        </member>
+        <member name="M:ClassLibrary2.Fakes.ShimCategory1.#ctor">
+            <summary>Initializes a new shim instance</summary>
+        </member>
+        <member name="M:ClassLibrary2.Fakes.ShimCategory1.#ctor(ClassLibrary2.Category1)">
+            <summary>Initializes a new shim for the given instance</summary>
+        </member>
+        <member name="T:ClassLibrary2.Fakes.ShimCategory1.AllInstances">
+            <summary>Define shims for all instances members</summary>
+        </member>
+        <member name="P:ClassLibrary2.Fakes.ShimCategory1.AllInstances.IDGet">
+            <summary>Sets the shim of Category1.get_ID()</summary>
+        </member>
+        <member name="P:ClassLibrary2.Fakes.ShimCategory1.AllInstances.IDSetInt32">
+            <summary>Sets the shim of Category1.set_ID(Int32 value)</summary>
+        </member>
+        <member name="P:ClassLibrary2.Fakes.ShimCategory1.AllInstances.NameGet">
+            <summary>Sets the shim of Category1.get_Name()</summary>
+        </member>
+        <member name="P:ClassLibrary2.Fakes.ShimCategory1.AllInstances.NameSetString">
+            <summary>Sets the shim of Category1.set_Name(String value)</summary>
+        </member>
+        <member name="M:ClassLibrary2.Fakes.ShimCategory1.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:ClassLibrary2.Fakes.ShimCategory1.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:ClassLibrary2.Fakes.ShimCategory1.Behavior">
+            <summary>Assigns the behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:ClassLibrary2.Fakes.ShimCategory1.Constructor">
+            <summary>Sets the shim of Category1.Category1()</summary>
+        </member>
+        <member name="P:ClassLibrary2.Fakes.ShimCategory1.IDGet">
+            <summary>Sets the shim of Category1.get_ID()</summary>
+        </member>
+        <member name="P:ClassLibrary2.Fakes.ShimCategory1.IDSetInt32">
+            <summary>Sets the shim of Category1.set_ID(Int32 value)</summary>
+        </member>
+        <member name="P:ClassLibrary2.Fakes.ShimCategory1.NameGet">
+            <summary>Sets the shim of Category1.get_Name()</summary>
+        </member>
+        <member name="P:ClassLibrary2.Fakes.ShimCategory1.NameSetString">
+            <summary>Sets the shim of Category1.set_Name(String value)</summary>
+        </member>
+        <member name="T:ClassLibrary2.Fakes.ShimProducts1">
+            <summary>Shim type of ClassLibrary2.Products1</summary>
+        </member>
+        <member name="M:ClassLibrary2.Fakes.ShimProducts1.#ctor">
+            <summary>Initializes a new shim instance</summary>
+        </member>
+        <member name="M:ClassLibrary2.Fakes.ShimProducts1.#ctor(ClassLibrary2.Products1)">
+            <summary>Initializes a new shim for the given instance</summary>
+        </member>
+        <member name="T:ClassLibrary2.Fakes.ShimProducts1.AllInstances">
+            <summary>Define shims for all instances members</summary>
+        </member>
+        <member name="P:ClassLibrary2.Fakes.ShimProducts1.AllInstances.Category_IdGet">
+            <summary>Sets the shim of Products1.get_Category_Id()</summary>
+        </member>
+        <member name="P:ClassLibrary2.Fakes.ShimProducts1.AllInstances.Category_IdSetInt32">
+            <summary>Sets the shim of Products1.set_Category_Id(Int32 value)</summary>
+        </member>
+        <member name="P:ClassLibrary2.Fakes.ShimProducts1.AllInstances.IDGet">
+            <summary>Sets the shim of Products1.get_ID()</summary>
+        </member>
+        <member name="P:ClassLibrary2.Fakes.ShimProducts1.AllInstances.IDSetInt32">
+            <summary>Sets the shim of Products1.set_ID(Int32 value)</summary>
+        </member>
+        <member name="P:ClassLibrary2.Fakes.ShimProducts1.AllInstances.NameGet">
+            <summary>Sets the shim of Products1.get_Name()</summary>
+        </member>
+        <member name="P:ClassLibrary2.Fakes.ShimProducts1.AllInstances.NameSetString">
+            <summary>Sets the shim of Products1.set_Name(String value)</summary>
+        </member>
+        <member name="P:ClassLibrary2.Fakes.ShimProducts1.AllInstances.PriceGet">
+            <summary>Sets the shim of Products1.get_Price()</summary>
+        </member>
+        <member name="P:ClassLibrary2.Fakes.ShimProducts1.AllInstances.PriceSetNullableOfInt32">
+            <summary>Sets the shim of Products1.set_Price(Nullable`1&lt;Int32&gt; value)</summary>
+        </member>
+        <member name="M:ClassLibrary2.Fakes.ShimProducts1.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:ClassLibrary2.Fakes.ShimProducts1.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:ClassLibrary2.Fakes.ShimProducts1.Behavior">
+            <summary>Assigns the behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:ClassLibrary2.Fakes.ShimProducts1.Category_IdGet">
+            <summary>Sets the shim of Products1.get_Category_Id()</summary>
+        </member>
+        <member name="P:ClassLibrary2.Fakes.ShimProducts1.Category_IdSetInt32">
+            <summary>Sets the shim of Products1.set_Category_Id(Int32 value)</summary>
+        </member>
+        <member name="P:ClassLibrary2.Fakes.ShimProducts1.Constructor">
+            <summary>Sets the shim of Products1.Products1()</summary>
+        </member>
+        <member name="P:ClassLibrary2.Fakes.ShimProducts1.IDGet">
+            <summary>Sets the shim of Products1.get_ID()</summary>
+        </member>
+        <member name="P:ClassLibrary2.Fakes.ShimProducts1.IDSetInt32">
+            <summary>Sets the shim of Products1.set_ID(Int32 value)</summary>
+        </member>
+        <member name="P:ClassLibrary2.Fakes.ShimProducts1.NameGet">
+            <summary>Sets the shim of Products1.get_Name()</summary>
+        </member>
+        <member name="P:ClassLibrary2.Fakes.ShimProducts1.NameSetString">
+            <summary>Sets the shim of Products1.set_Name(String value)</summary>
+        </member>
+        <member name="P:ClassLibrary2.Fakes.ShimProducts1.PriceGet">
+            <summary>Sets the shim of Products1.get_Price()</summary>
+        </member>
+        <member name="P:ClassLibrary2.Fakes.ShimProducts1.PriceSetNullableOfInt32">
+            <summary>Sets the shim of Products1.set_Price(Nullable`1&lt;Int32&gt; value)</summary>
+        </member>
+        <member name="T:ClassLibrary2.Fakes.ShimProductsDBEntities">
+            <summary>Shim type of ClassLibrary2.ProductsDBEntities</summary>
+        </member>
+        <member name="M:ClassLibrary2.Fakes.ShimProductsDBEntities.#ctor">
+            <summary>Initializes a new shim instance</summary>
+        </member>
+        <member name="M:ClassLibrary2.Fakes.ShimProductsDBEntities.#ctor(ClassLibrary2.ProductsDBEntities)">
+            <summary>Initializes a new shim for the given instance</summary>
+        </member>
+        <member name="T:ClassLibrary2.Fakes.ShimProductsDBEntities.AllInstances">
+            <summary>Define shims for all instances members</summary>
+        </member>
+        <member name="P:ClassLibrary2.Fakes.ShimProductsDBEntities.AllInstances.CategoriesGet">
+            <summary>Sets the shim of ProductsDBEntities.get_Categories()</summary>
+        </member>
+        <member name="P:ClassLibrary2.Fakes.ShimProductsDBEntities.AllInstances.CategoriesSetDbSetOfCategory1">
+            <summary>Sets the shim of ProductsDBEntities.set_Categories(DbSet`1&lt;Category1&gt; value)</summary>
+        </member>
+        <member name="P:ClassLibrary2.Fakes.ShimProductsDBEntities.AllInstances.OnModelCreatingDbModelBuilder">
+            <summary>Sets the shim of ProductsDBEntities.OnModelCreating(DbModelBuilder modelBuilder)</summary>
+        </member>
+        <member name="P:ClassLibrary2.Fakes.ShimProductsDBEntities.AllInstances.ProductsGet">
+            <summary>Sets the shim of ProductsDBEntities.get_Products()</summary>
+        </member>
+        <member name="P:ClassLibrary2.Fakes.ShimProductsDBEntities.AllInstances.ProductsSetDbSetOfProducts1">
+            <summary>Sets the shim of ProductsDBEntities.set_Products(DbSet`1&lt;Products1&gt; value)</summary>
+        </member>
+        <member name="M:ClassLibrary2.Fakes.ShimProductsDBEntities.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:ClassLibrary2.Fakes.ShimProductsDBEntities.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:ClassLibrary2.Fakes.ShimProductsDBEntities.Behavior">
+            <summary>Assigns the behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:ClassLibrary2.Fakes.ShimProductsDBEntities.Bind(System.Data.Entity.Infrastructure.IObjectContextAdapter)">
+            <summary>Binds the members of the interface to the shim.</summary>
+        </member>
+        <member name="M:ClassLibrary2.Fakes.ShimProductsDBEntities.Bind(System.IDisposable)">
+            <summary>Binds the members of the interface to the shim.</summary>
+        </member>
+        <member name="P:ClassLibrary2.Fakes.ShimProductsDBEntities.CategoriesGet">
+            <summary>Sets the shim of ProductsDBEntities.get_Categories()</summary>
+        </member>
+        <member name="P:ClassLibrary2.Fakes.ShimProductsDBEntities.CategoriesSetDbSetOfCategory1">
+            <summary>Sets the shim of ProductsDBEntities.set_Categories(DbSet`1&lt;Category1&gt; value)</summary>
+        </member>
+        <member name="P:ClassLibrary2.Fakes.ShimProductsDBEntities.Constructor">
+            <summary>Sets the shim of ProductsDBEntities.ProductsDBEntities()</summary>
+        </member>
+        <member name="P:ClassLibrary2.Fakes.ShimProductsDBEntities.OnModelCreatingDbModelBuilder">
+            <summary>Sets the shim of ProductsDBEntities.OnModelCreating(DbModelBuilder modelBuilder)</summary>
+        </member>
+        <member name="P:ClassLibrary2.Fakes.ShimProductsDBEntities.ProductsGet">
+            <summary>Sets the shim of ProductsDBEntities.get_Products()</summary>
+        </member>
+        <member name="P:ClassLibrary2.Fakes.ShimProductsDBEntities.ProductsSetDbSetOfProducts1">
+            <summary>Sets the shim of ProductsDBEntities.set_Products(DbSet`1&lt;Products1&gt; value)</summary>
+        </member>
+        <member name="T:ClassLibrary2.Fakes.StubCategory1">
+            <summary>Stub type of ClassLibrary2.Category1</summary>
+        </member>
+        <member name="M:ClassLibrary2.Fakes.StubCategory1.#ctor">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="P:ClassLibrary2.Fakes.StubCategory1.CallBase">
+            <summary>Gets or sets a value that indicates if the base method should be called instead of the fallback behavior</summary>
+        </member>
+        <member name="M:ClassLibrary2.Fakes.StubCategory1.InitializeStub">
+            <summary>Initializes a new instance of type StubCategory1</summary>
+        </member>
+        <member name="P:ClassLibrary2.Fakes.StubCategory1.InstanceBehavior">
+            <summary>Gets or sets the instance behavior.</summary>
+        </member>
+        <member name="P:ClassLibrary2.Fakes.StubCategory1.InstanceObserver">
+            <summary>Gets or sets the instance observer.</summary>
+        </member>
+        <member name="T:ClassLibrary2.Fakes.StubProducts1">
+            <summary>Stub type of ClassLibrary2.Products1</summary>
+        </member>
+        <member name="M:ClassLibrary2.Fakes.StubProducts1.#ctor">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="P:ClassLibrary2.Fakes.StubProducts1.CallBase">
+            <summary>Gets or sets a value that indicates if the base method should be called instead of the fallback behavior</summary>
+        </member>
+        <member name="M:ClassLibrary2.Fakes.StubProducts1.InitializeStub">
+            <summary>Initializes a new instance of type StubProducts1</summary>
+        </member>
+        <member name="P:ClassLibrary2.Fakes.StubProducts1.InstanceBehavior">
+            <summary>Gets or sets the instance behavior.</summary>
+        </member>
+        <member name="P:ClassLibrary2.Fakes.StubProducts1.InstanceObserver">
+            <summary>Gets or sets the instance observer.</summary>
+        </member>
+        <member name="T:ClassLibrary2.Fakes.StubProductsDBEntities">
+            <summary>Stub type of ClassLibrary2.ProductsDBEntities</summary>
+        </member>
+        <member name="M:ClassLibrary2.Fakes.StubProductsDBEntities.#ctor">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="M:ClassLibrary2.Fakes.StubProductsDBEntities.AttachBackingFieldToCategories">
+            <summary>Attaches delegates to emulate StubProductsDBEntities.Categories as a property with a backing field.</summary>
+        </member>
+        <member name="M:ClassLibrary2.Fakes.StubProductsDBEntities.AttachBackingFieldToProducts">
+            <summary>Attaches delegates to emulate StubProductsDBEntities.Products as a property with a backing field.</summary>
+        </member>
+        <member name="P:ClassLibrary2.Fakes.StubProductsDBEntities.CallBase">
+            <summary>Gets or sets a value that indicates if the base method should be called instead of the fallback behavior</summary>
+        </member>
+        <member name="P:ClassLibrary2.Fakes.StubProductsDBEntities.Categories">
+            <summary>Sets the stub of ProductsDBEntities.get_Categories()</summary>
+        </member>
+        <member name="F:ClassLibrary2.Fakes.StubProductsDBEntities.CategoriesGet">
+            <summary>Sets the stub of ProductsDBEntities.get_Categories()</summary>
+        </member>
+        <member name="F:ClassLibrary2.Fakes.StubProductsDBEntities.CategoriesSetDbSetOfCategory1">
+            <summary>Sets the stub of ProductsDBEntities.set_Categories(DbSet`1&lt;Category1&gt; value)</summary>
+        </member>
+        <member name="M:ClassLibrary2.Fakes.StubProductsDBEntities.Dispose(System.Boolean)">
+            <summary>Sets the stub of DbContext.Dispose(Boolean disposing)</summary>
+        </member>
+        <member name="F:ClassLibrary2.Fakes.StubProductsDBEntities.DisposeBoolean">
+            <summary>Sets the stub of DbContext.Dispose(Boolean disposing)</summary>
+        </member>
+        <member name="M:ClassLibrary2.Fakes.StubProductsDBEntities.Equals(System.Object)">
+            <summary>Sets the stub of DbContext.Equals(Object obj)</summary>
+        </member>
+        <member name="F:ClassLibrary2.Fakes.StubProductsDBEntities.EqualsObject">
+            <summary>Sets the stub of DbContext.Equals(Object obj)</summary>
+        </member>
+        <member name="M:ClassLibrary2.Fakes.StubProductsDBEntities.GetHashCode">
+            <summary>Sets the stub of DbContext.GetHashCode()</summary>
+        </member>
+        <member name="F:ClassLibrary2.Fakes.StubProductsDBEntities.GetHashCode01">
+            <summary>Sets the stub of DbContext.GetHashCode()</summary>
+        </member>
+        <member name="M:ClassLibrary2.Fakes.StubProductsDBEntities.InitializeStub">
+            <summary>Initializes a new instance of type StubProductsDBEntities</summary>
+        </member>
+        <member name="P:ClassLibrary2.Fakes.StubProductsDBEntities.InstanceBehavior">
+            <summary>Gets or sets the instance behavior.</summary>
+        </member>
+        <member name="P:ClassLibrary2.Fakes.StubProductsDBEntities.InstanceObserver">
+            <summary>Gets or sets the instance observer.</summary>
+        </member>
+        <member name="M:ClassLibrary2.Fakes.StubProductsDBEntities.OnModelCreating(System.Data.Entity.DbModelBuilder)">
+            <summary>Sets the stub of ProductsDBEntities.OnModelCreating(DbModelBuilder modelBuilder)</summary>
+        </member>
+        <member name="F:ClassLibrary2.Fakes.StubProductsDBEntities.OnModelCreatingDbModelBuilder">
+            <summary>Sets the stub of ProductsDBEntities.OnModelCreating(DbModelBuilder modelBuilder)</summary>
+        </member>
+        <member name="P:ClassLibrary2.Fakes.StubProductsDBEntities.Products">
+            <summary>Sets the stub of ProductsDBEntities.get_Products()</summary>
+        </member>
+        <member name="F:ClassLibrary2.Fakes.StubProductsDBEntities.ProductsGet">
+            <summary>Sets the stub of ProductsDBEntities.get_Products()</summary>
+        </member>
+        <member name="F:ClassLibrary2.Fakes.StubProductsDBEntities.ProductsSetDbSetOfProducts1">
+            <summary>Sets the stub of ProductsDBEntities.set_Products(DbSet`1&lt;Products1&gt; value)</summary>
+        </member>
+        <member name="M:ClassLibrary2.Fakes.StubProductsDBEntities.SaveChanges">
+            <summary>Sets the stub of DbContext.SaveChanges()</summary>
+        </member>
+        <member name="F:ClassLibrary2.Fakes.StubProductsDBEntities.SaveChanges01">
+            <summary>Sets the stub of DbContext.SaveChanges()</summary>
+        </member>
+        <member name="M:ClassLibrary2.Fakes.StubProductsDBEntities.SaveChangesAsync">
+            <summary>Sets the stub of DbContext.SaveChangesAsync()</summary>
+        </member>
+        <member name="M:ClassLibrary2.Fakes.StubProductsDBEntities.SaveChangesAsync(System.Threading.CancellationToken)">
+            <summary>Sets the stub of DbContext.SaveChangesAsync(CancellationToken cancellationToken)</summary>
+        </member>
+        <member name="F:ClassLibrary2.Fakes.StubProductsDBEntities.SaveChangesAsync01">
+            <summary>Sets the stub of DbContext.SaveChangesAsync()</summary>
+        </member>
+        <member name="F:ClassLibrary2.Fakes.StubProductsDBEntities.SaveChangesAsyncCancellationToken">
+            <summary>Sets the stub of DbContext.SaveChangesAsync(CancellationToken cancellationToken)</summary>
+        </member>
+        <member name="M:ClassLibrary2.Fakes.StubProductsDBEntities.Set(System.Type)">
+            <summary>Sets the stub of DbContext.Set(Type entityType)</summary>
+        </member>
+        <member name="M:ClassLibrary2.Fakes.StubProductsDBEntities.Set``1">
+            <summary>Sets the stub of DbContext.Set()</summary>
+        </member>
+        <member name="M:ClassLibrary2.Fakes.StubProductsDBEntities.SetOf1``1(Microsoft.QualityTools.Testing.Fakes.FakesDelegates.Func{System.Data.Entity.DbSet{``0}})">
+            <summary>Sets stubs of Set()</summary>
+        </member>
+        <member name="F:ClassLibrary2.Fakes.StubProductsDBEntities.SetType">
+            <summary>Sets the stub of DbContext.Set(Type entityType)</summary>
+        </member>
+        <member name="M:ClassLibrary2.Fakes.StubProductsDBEntities.ShouldValidateEntity(System.Data.Entity.Infrastructure.DbEntityEntry)">
+            <summary>Sets the stub of DbContext.ShouldValidateEntity(DbEntityEntry entityEntry)</summary>
+        </member>
+        <member name="F:ClassLibrary2.Fakes.StubProductsDBEntities.ShouldValidateEntityDbEntityEntry">
+            <summary>Sets the stub of DbContext.ShouldValidateEntity(DbEntityEntry entityEntry)</summary>
+        </member>
+        <member name="M:ClassLibrary2.Fakes.StubProductsDBEntities.ToString">
+            <summary>Sets the stub of DbContext.ToString()</summary>
+        </member>
+        <member name="F:ClassLibrary2.Fakes.StubProductsDBEntities.ToString01">
+            <summary>Sets the stub of DbContext.ToString()</summary>
+        </member>
+        <member name="M:ClassLibrary2.Fakes.StubProductsDBEntities.ValidateEntity(System.Data.Entity.Infrastructure.DbEntityEntry,System.Collections.Generic.IDictionary{System.Object,System.Object})">
+            <summary>Sets the stub of DbContext.ValidateEntity(DbEntityEntry entityEntry, IDictionary`2&lt;Object,Object&gt; items)</summary>
+        </member>
+        <member name="F:ClassLibrary2.Fakes.StubProductsDBEntities.ValidateEntityDbEntityEntryIDictionaryOfObjectObject">
+            <summary>Sets the stub of DbContext.ValidateEntity(DbEntityEntry entityEntry, IDictionary`2&lt;Object,Object&gt; items)</summary>
+        </member>
+    </members>
+</doc>
